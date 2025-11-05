@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget { // StatelessWidget 상속받으면 build �
   }
 }
 
-// [2] 상태가 있는 위젯
+// [2] 상태가 있는 위젯  // StatefulWidget 상태가 변하는 위젯
 class IOwidget extends StatefulWidget { // StatefulWidget 상속 받으면 등록
   // 현재 위젯을 상속받은 하위 위젯들을 등록
   IOwidgetState createState() => IOwidgetState();
