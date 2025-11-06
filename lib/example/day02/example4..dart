@@ -18,6 +18,7 @@ class IOwidget extends StatefulWidget { // StatefulWidget 상속 받으면 등�
   // 현재 위젯을 상속받은 하위 위젯들을 등록
   IOwidgetState createState() => IOwidgetState();
 }
+
 // [3] 상태 하위 위젯
 class IOwidgetState extends State< IOwidget >{
   // - TextField 로 붙 ㅓ입력받은 값들을 제어하는 제어 변수 입력상자 1개당 1개
