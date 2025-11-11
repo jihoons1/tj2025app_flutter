@@ -6,7 +6,7 @@ import 'package:tj2025app_flutter/example/%EC%8B%A4%EC%8A%B5/%EC%8B%A4%EC%8A%B51
 import 'package:tj2025app_flutter/example/%EC%8B%A4%EC%8A%B5/%EC%8B%A4%EC%8A%B51/%EC%8B%A4%EC%8A%B5/Singup.dart';
 
 class Mainpage extends StatefulWidget {
-  MainPageState create() => MainPageState();
+  MainPageState createState() => MainPageState();
 }
 
 class MainPageState extends State<Mainpage> {

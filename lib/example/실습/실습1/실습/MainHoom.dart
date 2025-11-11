@@ -10,7 +10,7 @@ class MainHoom extends StatelessWidget {
     return Scaffold(
       appBar: AppBar( title: Text("플로터 연결 실습"),),
       body: Center(
-        child: ElevatedButton(onPressed: (){ Navigator.pushNamed(context, "/singup")}, child: Text("회원가입 페이지로 이동")),
+        child: ElevatedButton(onPressed: (){ Navigator.pushNamed(context, "/singup"); }, child: Text("회원가입 페이지로 이동")),
       ),
     );
   }
